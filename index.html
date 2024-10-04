@@ -1,117 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página pessoal de um professor de inglês e espanhol no Brasil.">
     <title>Professor de Inglês e Espanhol</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            background-color: #f9f5f0;
-            color: #5a4d4d;
+            font-family: Arial, sans-serif;
             margin: 0;
-            overflow-x: hidden;
-            transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
         }
         header {
-            background-color: #d9c7b6;
-            color: #3e2e2e;
-            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
             text-align: center;
-            transition: transform 0.6s ease-in-out;
         }
-        .container {
-            padding: 0 20px;
-            max-width: 1000px;
-            margin: auto;
-            animation: fadeIn 1.5s ease-in-out;
+        header h1 {
+            margin: 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
         }
         section {
-            margin: 40px 0;
+            margin-bottom: 2rem;
         }
-        h1, h2 {
-            color: #a67c5b;
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
         }
         p {
-            font-size: 1.1rem;
-            color: #5a4d4d;
+            line-height: 1.6;
         }
         .contacto {
-            background-color: #b29b88;
-            color: #fff;
-            padding: 20px;
             text-align: center;
-            border-radius: 10px;
-            transition: background-color 0.5s ease;
-        }
-        .contacto:hover {
-            background-color: #a67c5b;
-        }
-        @keyframes fadeIn {
-            0% { opacity: 0; transform: translateY(30px); }
-            100% { opacity: 1; transform: translateY(0); }
         }
         a {
-            color: #a67c5b;
+            color: #007BFF;
             text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
         }
         a:hover {
-            color: #5a4d4d;
             text-decoration: underline;
         }
-        .suave {
-            transition: transform 0.7s ease, box-shadow 0.7s ease;
-        }
-        .suave:hover {
-            transform: translateY(-5px);
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
+
     <header>
         <h1>Professor de Inglês e Espanhol</h1>
     </header>
-    <main class="container">
-        <section>
-            <h2>Aprenda do jeito Fiuza</h2>
-            <p class="suave"> Olá! Me chamo Gustavo Fiuza e sou um estudante espanhol, recém-chegado ao Brasil, com uma missão especial: ajudar você a dominar o inglês e o espanhol.</p>
-            
-            <p class="suave">Com uma abordagem totalmente personalizada, eu adapto minhas aulas às suas necessidades individuais. Sei que aprender um novo idioma pode ser desafiador, e meu objetivo é ajudar você a superar qualquer medo ou frustração que possa surgir durante o processo.</p>
-             <p class="suave">Apesar de estar começando minha jornada como professor, tenho uma grande habilidade em entender as pessoas e criar lições dinâmicas que se ajustam ao seu ritmo. Cada aluno é único, e minha missão é garantir que você se sinta confiante e motivado para aprender.
 
-</p>
-        </section>
+    <main>
         <section>
-            <h2>O Que Você Pode Esperar</h2>
-            <p class="suave">Utilizo métodos interativos que envolvem atividades práticas, discussões, e muita dinâmica para garantir que você não só aprenda, mas também goste do processo de aprendizado. O meu foco é tornar as aulas agradáveis, motivadoras e adequadas ao seu ritmo.</p>
+            <h2>Biografia</h2>
+            <p> Olá! Me chamo Gustavo Fiuza e sou um estudante espanhol, recém-chegado ao Brasil, com uma missão especial: ajudar você a dominar o inglês e o espanhol.</p>
+            <p> Com uma abordagem totalmente personalizada, eu adapto minhas aulas às suas necessidades individuais. Sei que aprender um novo idioma pode ser desafiador, e meu objetivo é ajudar você a superar qualquer medo ou frustração que possa surgir durante o processo. </p>
+            <p> Apesar de estar começando minha jornada como professor, tenho uma grande habilidade em entender as pessoas e criar lições dinâmicas que se ajustam ao seu ritmo. Cada aluno é único, e minha missão é garantir que você se sinta confiante e motivado para aprender. </p>
+            <p> Vamos embarcar juntos nessa jornada linguística? Estou ansioso para ver seu progresso!</p>
         </section>
+
         <section>
-            <h2>Contato</h2>
-            <div class="contacto">
-                <p>Entre em contato para mais informações e agende sua aula!</p>
-                <p>Telefone: <a href="tel:+55111111111111">11 11111-1111</a></p>
-                <p>Email: <a href="mailto:2gfiuza@gmail.com">2gfiuza@gmail.com</a></p>
-                <p>Instagram: <a href="mailto:https://www.instagram.com/kiwizz.v/">kiwizz.v</a></p>
-            </div>
+            <h2>Entre em contato comigo</h2>
+            <p class="contacto">Você pode me contatar pelo meu email ou mesmo o instagram</p>
+            <p class="contacto"><a href="https://gmail.com/2gfiuza@gmail.com" target="_blank">2gfiuza@gmail.com</a></p> 
+        <p class="contacto"><a href="https://instagram.com/kiwizz.v" target="_blank">kiwizz.v</a></p> 
+
+
+
+
+
+
+         <p>02                       </p>
+
+
+            <p>03                   </p>
+
+
+
+
+            
+           
         </section>
     </main>
-    <script>
-        document.addEventListener('scroll', () => {
-            const header = document.querySelector('header');
-            if (window.scrollY > 50) {
-                header.style.transform = 'translateY(-30px)';
-            } else {
-                header.style.transform = 'translateY(0)';
-            }
-        });
-    </script>
+
+    <footer>
+        <p>&copy; 2024 Professor de Inglês e Espanhol</p>
+    </footer>
+
 </body>
 </html>
+
